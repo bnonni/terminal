@@ -15,7 +15,7 @@ the LITD directory. (~/.lit or ~/Library/Application Support/Litd)
 
 You can then use these to interact with your LITD directly.
 
-    ```ts
+```ts
 import { authenticatedLitdGrpc } from 'terminal';
 // cjs: const { authenticatedLitdGrpc } = require('terminal');
 
@@ -24,7 +24,7 @@ const { tapd } = authenticatedLitdGrpc({
     macaroon: 'base64 encoded lit.macaroon from ~/.lit dir',
     socket: '127.0.0.1:8443',
 });
-    ```
+```
 
 ## Methods
 
